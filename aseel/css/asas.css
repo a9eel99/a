@@ -1,0 +1,673 @@
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(33, 36, 36);
+    width: 100%;
+}
+
+.navbar-brand {
+
+    position: relative;
+    left: 45%;
+    text-align: center;
+}
+
+a {
+
+    font-weight: bold;
+}
+
+a.nav {
+    color: white;
+
+}
+
+.d-flex {
+    position: absolute;
+    left: 70%;
+}
+
+a:hover {
+
+    font-weight: bold;
+}
+
+img.pp {
+    width: 25px;
+    height: 25px;
+}
+
+
+img.pcc {
+    width: 100%;
+    height: 650px;
+}
+
+h2 {
+    text-align: center;
+
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+
+    font-weight: bold;
+}
+
+div {
+    display: inline-block;
+
+}
+
+div.a,
+.b {
+
+    margin-left: 80px;
+    margin-right: 80px;
+    display: block;
+    text-align: center;
+    top: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 26.66;
+}
+
+div.a button[type="submit"] {
+    color: rgb(255, 255, 255);
+    background-color: #0dcaf0;
+    width: 100px;
+}
+
+div.b button[type="submit"] {
+    color: rgb(255, 255, 255);
+    background-color: #0dcaf0;
+    width: 100px;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+div.a legend {
+    color: #0dcaf0;
+}
+
+div.b legend {
+    color: #0dcaf0;
+}
+
+
+
+.containersss {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.custom-fieldset {
+    border: 1px solid #969696;
+    padding: 15px;
+    position: relative;
+    width: 300px;
+    height: 220px;
+}
+
+.custom-legend {
+    position: relative;
+    top: -35px;
+    background-color: white;
+
+}
+
+h5 {
+    position: relative;
+    top: -20px;
+    text-align: start;
+}
+
+button.r1 {
+    display: block;
+    position: relative;
+    top: -160px;
+    right: -171px;
+}
+
+h5.y1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
+
+div.asd {
+    width: 85%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 550px;
+    left: 7%;
+
+
+}
+
+div.w {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: -200%;
+}
+
+form.f1 {
+    position: relative;
+    top: 12px;
+    right: -60px;
+    width: 40%;
+    font-weight: bold;
+
+}
+
+div.ase {
+    width: 40%;
+    position: relative;
+    top: -437.9px;
+    right: -575px;
+
+
+}
+
+img.cont {
+    width: 55px;
+    height: 55px;
+}
+
+p.pp {
+    text-align: start;
+    color: rgba(0, 0, 0, 0.552);
+
+}
+
+div.asem {
+    position: relative;
+    top: -370px;
+    right: -60%;
+}
+
+.tm:hover {
+    border-color: #8b8b8b96;
+
+}
+
+.hn {
+    color: white;
+    background-color: black;
+    width: 100px;
+
+}
+
+.hn:hover {
+    color: #0dcaf0;
+}
+
+div.er {
+
+    width: 95%;
+    position: relative;
+    right: -22px;
+    margin-top: 4%;
+    margin-bottom: 6%;
+
+}
+
+div.media {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.d-flexs {
+    display: flex;
+    position: fixed;
+    right: 10%;
+
+}
+
+input.tm {
+    width: 300px;
+}
+
+textarea.tm {
+    width: 300px;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+img.drimg {
+    width: 100%;
+    height: 50%;
+}
+.tm:focus {
+    outline: none; /* إزالة الحدود الافتراضية عند التركيز (إذا كنت ترغب في ذلك) */
+}
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* mobile..........................................................................................*/
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+    div.w {
+
+        position: absolute;
+        width: 100%;
+        bottom: -200%;
+    }
+
+    input.tm {
+        width: 100%;
+
+    }
+
+    textarea.tm {
+        width: 100%;
+    }
+
+    div.b button[type="submit"] {
+        width: 80px;
+        height: 30px;
+    }
+
+    div.a button[type="submit"] {
+        width: 80px;
+        height: 30px;
+    }
+
+    button.r1 {
+        font-size: 10px;
+    }
+
+    h5.h55 {
+        font-size: 15px;
+    }
+
+    input.tm {
+        width: 80%;
+    }
+
+    textarea.tm {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        width: 100%;
+    }
+
+    div.w {
+
+        position: absolute;
+        width: 100%;
+        bottom: -200%;
+    }
+
+
+
+    h2 {
+        text-align: center;
+    }
+
+    .containersss {
+        display: block;
+
+    }
+
+    div.a {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        width: 80%;
+        justify-content: center;
+    }
+
+    div.b {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .y0 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 15%;
+    }
+
+    .custom-fieldset {
+        width: 100%;
+    }
+
+    button.r1 {
+        top: -160px;
+        right: -64%;
+        width: 40%;
+        height: 17%;
+
+    }
+
+    .navbar-brand {
+        position: relative;
+        left: 2%;
+    }
+
+    .d-flexs {
+        width: 50%;
+        position: absolute;
+        top: 46%;
+        left: 47%;
+    }
+
+    img.pcc {
+        height: 500px;
+    }
+
+    form.f1 {
+        display: block;
+        position: relative;
+        top: -8%;
+        right: -3%;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    div.ase {
+        display: block;
+        position: relative;
+        top: -5%;
+        right: -3%;
+        width: 100%;
+
+    }
+
+    img.cont {
+        width: 13%;
+        height: 13%;
+    }
+
+    div.asem {
+        position: relative;
+        top: 40px;
+        right: 0%;
+        display: block;
+    }
+
+    h3.h33 {
+        font-size: 100%;
+    }
+
+    /*screen two*/
+    p.pp {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/*small screens...........................................................................*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    div.w {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: -105%;
+    }
+
+    div.asem {
+        position: relative;
+        top: -370px;
+        right: -140%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .containersss {
+        display: block;
+
+    }
+
+    div.a {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        width: 80%;
+        justify-content: center;
+    }
+
+    div.b {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .y0 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 15%;
+    }
+
+    .custom-fieldset {
+        width: 100%;
+    }
+
+    button.r1 {
+        top: -160px;
+        right: -64%;
+
+    }
+
+    .navbar-brand {
+        position: relative;
+        left: 2%;
+    }
+
+    .d-flexs {
+        width: 50%;
+        position: absolute;
+        top: 46%;
+        left: 47%;
+    }
+
+    img.pcc {
+        height: 700px;
+    }
+
+    div.centered {
+
+        top: 28%;
+    }
+
+    div.asd {
+        display: block;
+        position: relative;
+        top: 60%;
+        left: -12%;
+
+
+    }
+
+    div.ase {
+        display: block;
+        position: relative;
+        top: 63px;
+        right: -132px;
+
+
+    }
+
+    form.f1 {
+        position: relative;
+        top: 12px;
+        right: -132px;
+
+    }
+
+    input.tm {
+        width: 600px;
+    }
+
+    textarea.tm {
+        width: 600px;
+    }
+
+    /*screen two*/
+    p.pp {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/*medium screens*/
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    div.w {
+
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: -220%;
+
+    }
+
+    h5.y1 {
+        width: 100%;
+        font-size: 15px;
+
+    }
+
+    .custom-fieldset {
+        width: 250px;
+    }
+
+    input.tm {
+        width: 100%;
+
+    }
+
+    textarea.tm {
+        width: 100%;
+    }
+
+    div.b button[type="submit"] {
+        width: 80px;
+        height: 30px;
+        position: relative;
+        right: -59%;
+        top: -79%;
+    }
+
+    div.a button[type="submit"] {
+        width: 80px;
+        height: 30px;
+        position: relative;
+        right: -59%;
+        top: -79%;
+    }
+
+    button.r1 {
+        font-size: 10px;
+    }
+
+    h5.h55 {
+        font-size: 15px;
+    }
+
+    input.tm {
+        width: 73%;
+    }
+
+    textarea.tm {
+        width: 73%;
+    }
+
+    div.ase {
+        position: relative;
+        right: -46%;
+    }
+
+    p.pp {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+
+/*large screens*/
+@media only screen and (min-width: 1200px) {
+    div.ase {
+        position: relative;
+        right: -53%;
+    }
+
+    p.pp {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.invalid{
+    
+    color: red;
+    display: none;
+    font-size: 75%;
+    text-align: start;
+}
